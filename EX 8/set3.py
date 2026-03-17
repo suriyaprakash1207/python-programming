@@ -1,0 +1,5 @@
+s1=set(input("enter the 1st set:").split())
+s2=set(input("enter the 2nd set:").split())
+print("the intersection is:",s1&s2)
+print("the union is:",s1 | s2)
+print("the difference is:",s1-s2)
